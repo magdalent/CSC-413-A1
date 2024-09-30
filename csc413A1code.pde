@@ -5,7 +5,7 @@ Serial myPort;
 int x, y, b; // Joystick X (A0), Y (A1), and button state (digital pin 2)
 int prevX, prevY; // To store the previous joystick position
 String val;
-int threshold = 18; // Threshold to detect joystick movement (adjust if needed)
+int threshold = 18; // Threshold to detect joystick movement
 
 void setup() {
   size(900, 900);  // Window size
